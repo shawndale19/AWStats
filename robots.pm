@@ -43,10 +43,6 @@
 #
 #-------------------------------------------------------
 
-# 2023-07-04 RobC 
-#              Removed Dalvik as native Android UI Browser User Agent
-#              Removed CFNetwork as native iOS and OSX Browser User Agent
-
 # 2021-05--05 RobC
 
 # Removed Baidu catchall because its picking up baidu.sogo.uc.UCBrowser which is a phone browser
@@ -518,6 +514,7 @@
 'CUBOT',
 'Curl/PHP',
 'cyencebot',
+'Dalvik/',
 'DataCrawler/',
 'daumoa',
 'daum',
@@ -782,6 +779,7 @@
 'ng/1\.',
 'ng/2\.',
 'libwww\-perl',
+'CFNetwork',
 'urllib',
 'javabee',
 'projectwf\-java\-test\-crawler',
@@ -1698,6 +1696,7 @@
 'CUBOT','CUBOT',
 'Curl/PHP','Curl/PHP',
 'cyencebot','cyencebot',
+'Dalvik/','Dalvik',
 'DataCrawler/','DataCrawler',
 'daumoa','daumoa',
 'daum','daum',
@@ -1961,6 +1960,7 @@
 'ng/1\.','ng/1.',
 'ng/2\.','ng/2.',
 'libwww\-perl','libwww-perl',
+'CFNetwork','CFNetwork',
 'urllib','urllib',
 'javabee','javabee',
 'projectwf\-java\-test\-crawler','projectwf-java-test-crawler',
