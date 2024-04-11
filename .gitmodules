@@ -1,3 +1,6 @@
 [submodule "AWStats"]
 	path = AWStats
 	url = https://github.com/eldy/AWStats
+[submodule "nodejs.org"]
+	path = nodejs.org
+	url = git@github.com:nodejs/nodejs.org
